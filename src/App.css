@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(rgb(191, 152, 159), 5%, white);
+    font-family: cursive;
+    text-align: center; 
+}
+
+.box
+{
+ align-items: space;
+}
+.enter
+{
+ font-family: cursive;
+ border-radius: 5%;
+}
+.addtodo
+{
+    font-family: cursive;
+    border-radius: 5%;
+}
+.checkbox
+{
+    border-radius: 5%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.delete
+{
+    font-family: cursive;
+    opacity: 0.25;
+}
+.delete:hover{
+    opacity: 2;
+}
+
+.edit
+{
+    font-family: cursive;
+    opacity: 0.25;
+}
+.edit:hover{
+    opacity: 2;
+}
+.option {
+    width: 60%;
+    text-align: center;
+    margin: 12px;
+    display: inline-block;
+}
+.option1{
+    margin: 10px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addtododiv{
+    margin: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.addtodobutton{
+    text-align: center;
+    display: block;
+    background-color: rgb(212, 184, 187);
+    border-radius: 10px;
+    opacity: 0.85;
+    height: 2.7rem;
+    width: 3rem;
+    font-size: 0.95rem;
+}
+.addtodobutton:hover{
+    opacity: 10;
+
+}
+.filter{
+    margin: 6px;
+    padding: 10px;
+}
+.label
+{
+    /* background-color: white;
+    margin: 10px; */
+    background-color: #FFFFFF;
+    margin: 15px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 6px;
+}
+.label1
+{
+    margin: 40px;
+}

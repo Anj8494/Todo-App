@@ -1,0 +1,42 @@
+.list{
+    text-align: left;
+    margin: 10px; 
+    padding: 5px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: inset;
+    width: 790px;
+    margin-left: 20%;
+}
+.check-input{
+    display: flex;
+    justify-content: space-around;
+}
+.check{
+    width: 0.95rem;
+}
+ 
+.list1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.delete{
+    background-color: rgb(212, 184, 187);
+    border-radius: 10px;
+    
+}
+.edit{
+    background-color: rgb(212, 184, 187);
+    border-radius: 10px;
+    margin-left: 0.25rem;
+}
+.list2{
+    width: 5rem;
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    margin-left: 0.30rem;
+    font-size: 18px;
+}
